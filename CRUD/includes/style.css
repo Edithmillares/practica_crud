@@ -1,0 +1,30 @@
+.bg-color {
+  background-color: #33e0e0 !important;
+  /*background-image: url(fon2.jpg);*/
+}
+
+.color {
+  background: #ad5389 !important; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fondo {
+  align-items: center;
+  background-color: #33e0e0 !important;
+  /*background-image: url(img/fon2.jpg); /*esto es para el fondo con la imagen*/
+  /*background-image: url(fon2.jpg); */
+  background-position: center;
+  /*background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;*/
+  min-height: 100vh;
+}
